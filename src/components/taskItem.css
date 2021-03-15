@@ -1,0 +1,45 @@
+.taskItem {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.isVisible {
+    height: auto;
+}
+
+.showItem {
+    height: auto;
+}
+
+.taskItemTitle {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.taskItemDate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.taskItem img {
+    width: 23px;
+    height: 23px;
+}
+
+.taskItemDescription {
+    padding-left: 40px;
+    margin-top: 15px;
+}

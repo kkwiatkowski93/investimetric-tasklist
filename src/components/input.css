@@ -1,0 +1,155 @@
+input {
+    display: block;
+}
+
+.formContainer {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    overflow: hidden;
+}
+
+.showMore {
+    height: 420px;
+}
+
+.hideMore {
+    height: 100px;
+}
+
+.titleInput {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.showMoreButton {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    color: #1151f2;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.showMoreButton:hover {
+    color: #3f6ee4;
+}
+
+.descriptionInput__container {
+    margin-top: 60px;
+}
+
+.descriptionInput__container label{
+    font-weight: 600;
+}
+
+.descriptionInput {
+    Width: 100%;
+    background: rgb(226 226 226 / 51%);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+    font-family: 'LatoWebPage';
+    margin-top: 10px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.priorityContainer {
+    display: inline-block;
+}
+
+input[type="radio"]:checked+label  {
+    background: #a7a7a7;
+    border-radius: 100%;
+}
+
+.priorityContainer label:first-child {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.priorityContainer label {
+    cursor: pointer;
+}
+
+.priorityContainer input {
+    display: inline-block;
+}
+
+.priorityContainer input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin-right: 10px;
+}
+
+.priorityContainer img {
+    width: 30px;
+    height: 30px;
+}
+
+.dateContainer {
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+.dateContainer label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addTaskButton {
+    position: relative;
+    width: 100px;
+    height: 35px;
+    top: 40px;
+    right: -110px;
+    border-radius: 30px;
+    background: #50d649;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.addTaskButton:hover {
+    background: #36ab30;
+}
+
+@media screen and (max-width: 600px) {
+    .dateContainer {
+        left: 40px;
+    }
+}
